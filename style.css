@@ -97,15 +97,11 @@ top: 2048px;
 background: #E9E9E9;
 }
 h4{ 
-width: 6.5rem;
-height: 2rem;
 font-size: 1,7rem;
 line-height: 1.7rem;
 color: #716565;
 }
-.pagrafo-footer{
-width: 7.5rem;
-height: 3.5rem;
+.paragrafo-footer{
 font-size: 1rem;
 line-height: 1.18rem;
 color: #716565;
@@ -113,7 +109,11 @@ color: #716565;
 
 
 
-@media(max-width: 1020px){
+@media(max-width: 990px){
+  .img-logo-responsiva{
+
+
+  }
 .logo-responsiva{
   display: none !important;
 }
@@ -124,17 +124,19 @@ color: #716565;
   display:block;
 }
 
+
  }
 
  @media(max-width: 530px){
+
   .txt-responsivo{
-    padding-left: 100px;
+  padding-left: 130px;
   font-size: 2rem;
   line-height: 2.5rem;
   }
 
   .pagrafo-responsivo{
-    padding-left: 100px;
+    padding-left: 130px;
     font-size: 1.63rem;
     line-height:1.93rem;
 
