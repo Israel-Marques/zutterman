@@ -110,7 +110,6 @@ h4 {
   /*  filter: hue-rotate(deg ) */
 }
 @media (max-width: 990px) {
-
   .logo-responsiva {
     display: none !important;
   }
@@ -141,5 +140,12 @@ h4 {
     height: 1rem;
     transform: rotate(90deg);
     border: none;
+  }
+}
+@media (max-width:  990px) and (min-width:780px) {
+  .conteudo-2 {
+    height: 65rem;
+    width: 100%;
+    background: #506fa9;
   }
 }
